@@ -1,0 +1,39 @@
+
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status
+{
+font-size: 18px;
+}
+body
+{
+    background-image : url('background.jpg');
+    background-size:cover;
+    background-position:center;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+.div1
+{
+    width:100%;
+    font-size:26px;
+    margin-top: 0px;
+}
+canvas
+{
+    animation-name: animation1;
+    animation-duration: 2.8s;
+    animation-iteration-count: infinite;
+    border-style: solid;
+    border-color: black;
+}
+@keyframes animation1
+{
+from{box-shadow: 12px 12px 24px black};
+to{box-shadow: 12px 12px 24px palevioletred};
+}
